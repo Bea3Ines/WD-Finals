@@ -5,31 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - My Personal Website</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 </head>
 <body>
     <header>
-        <h1>My Projects</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="../page1/index.html">About</a></li>
+                <li><a class="btn active">Projects and Repositories</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Project 1</h2>
-            <p>Description of the project. <a href="https://github.com/username/project1">Repository Link</a></p>
-        </section>
-        <section>
-            <h2>Project 2</h2>
-            <p>Description of the project. <a href="https://github.com/username/project2">Repository Link</a></p>
-        </section>
-        <!-- Add more projects as needed -->
-    </main>
+
+    <section>
+        <div class="row">
+            <h2>Projects and Repositories</h2>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-header"></i>
+                    </div>
+                    <h3>Seatwork 3</h3>
+                    <p>
+                        Headers and Footers
+                    </p>
+                    <a href="https://bea3ines.github.io/WD-Seatwork_3/" class="click">Check this out</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-hammer"></i>
+                    </div>
+                    <h3>Seatwork 4</h3>
+                <p>
+                    Feature Display
+                </p>
+                <a href="https://bea3ines.github.io/WD-Seatwork_4/" class="click">Check this out</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-paintbrush"></i></div>
+                    <h3>Hands-On 2</h3>
+                <p>
+                   Hero and Cards
+                </p>
+                <a href="https://bea3ines.github.io/WD-Hands-on-2/" class="click">Check this out</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <p>&copy; 2024 My Personal Website</p>
     </footer>
