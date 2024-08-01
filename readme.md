@@ -13,7 +13,6 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This shows about the personal website which features the resume, pages and so on.
 </div>
 
 <br />
@@ -55,16 +54,16 @@
 ---
 
 ## Overview
-
+This project shows the  simple design of a personal website 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
+<!--Guiding Question:
 - What is the project
 - Whats the purpose
 - What are key components
-- What technology used and how it is used
+- What technology used and how it is used-->
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -72,11 +71,8 @@ Guiding Question:
 - <!--MultiPage Website/Single Page Website-->
 - <!--Parallax transition-->
 - <!--Transactional-->
-- 5 pages from personal website
-- Resume
-- Info
+- 5 pages from personal website 
 - Landing page
-- Design
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -122,4 +118,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+Title	Purpose	Link
+| Freepik	logos, pics, features, icons, etc.	Freepik.com
+| Fontsawesome | Designed & simple icons, of any objects shapes or any icons | fontsawesome.com |
+| Bootstrap	| It's a web page for css templates, guides and examples that will practice the structure of web design |	https://getbootstrap.com |
+| Google Fonts | A google service which has kinds of icons and fonts to choose | fonts.google.com |
+| W3Schools	| It's a web page tutorial for web designers which features css templates, guides and examples | https://www.w3schools.com |
