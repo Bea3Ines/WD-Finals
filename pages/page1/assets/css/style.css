@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Limelight&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');
+*{outline: none;}
+body {
+    font-family: Righteous;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #6b7999;
+    color: #fffafa;
+}
+
+header {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #18243f;
+}
+
+p{font-size: 17px;}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    transition: .3s;
+    border-bottom: solid 5px rgb(129, 224, 227);
+}
+span{
+    color: rgb(129, 224, 227);
+    text-decoration: underline;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Create three unequal columns that sits next to each other */
+  .column {
+    padding: 0 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Left and right column */
+  .column.side {
+     -webkit-flex: 1;
+     -ms-flex: 1;
+     flex: 1;
+  }
+  
+.apple{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+  /* Middle column */
+  .column.middle {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+
+.lemon{
+    display: inline;
+    font-size: 80px;
+}
+.lemon p{line-height: 2;}
+  /* Style the footer */
+  .footer {
+    background-color: #091e41;
+    padding: 5px;
+    text-align: center;
+  }
+
+h1{color: #18243f;}
+.row1{
+    display: -webkit-flex;
+    display: flex;
+}
+.row2{
+    display: -webkit-flex;
+    display: flex;
+}
+.banana {
+    line-height: 3;
+    font-size: 18px;
+    display: inline;
+    justify-content: center;
+}
+.pear{
+    line-height: 3;
+    font-size: 18px;
+    display: inline;
+    justify-content: center;
+}
+.cherry{
+    line-height: 3;
+    font-size: 18px;
+    display: inline;
+    justify-content: center;
+}
+.mango{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }

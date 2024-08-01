@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Limelight&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');
+*{outline: none;}
+body {
+    font-family: Righteous;
+    margin: 0;
+    padding: 0;
+    background-color: #18243f;
+    color: #fffafa;
+
+}
+
+header {
+    padding: 30px 0;
+    text-align: center;
+}
+
+ h1 {
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 36px;
+}
+p{font-size: 20px;}
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    transition: .3s;
+    border-bottom: solid 5px rgb(129, 224, 227);
+}
+
+main {
+    display: flex;
+    gap: 8%;
+    justify-content: flex-end;
+    padding: 30px;
+    margin-top: 7%;
+}
+span{
+    color: rgb(129, 224, 227);
+    text-decoration: underline;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: -1px 0 20px 10px rgba(0, 0, 0, 0.1);
+}
