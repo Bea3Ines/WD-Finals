@@ -119,7 +119,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 Title	Purpose	Link
-| Freepik	logos, pics, features, icons, etc.	Freepik.com
+| Freepik	logos, pics, features, icons, etc.|	Freepik.com |
 | Fontsawesome | Designed & simple icons, of any objects shapes or any icons | fontsawesome.com |
 | Bootstrap	| It's a web page for css templates, guides and examples that will practice the structure of web design |	https://getbootstrap.com |
 | Google Fonts | A google service which has kinds of icons and fonts to choose | fonts.google.com |
