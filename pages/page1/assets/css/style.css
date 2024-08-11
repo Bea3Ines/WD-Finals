@@ -1,32 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Limelight&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');
-*{outline: none;}
+*{outline: auto;}
 body {
     font-family: Righteous;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #6b7999;
+    background-color: #18243f64;
     color: #fffafa;
 }
 
 header {
-    padding: 30px 0;
-    text-align: center;
+    padding: 10px 0;
     background-color: #18243f;
 }
-
-p{font-size: 17px;}
+nav{display: flex; align-items: center; justify-content: space-between;
+  h1{text-align: left; margin-left: 3%; font-size: 40px; color: orange; .sirius{color:white}}
+}
 
 nav ul {
     list-style: none;
-    padding: 0;
     font-size: 20px;
-    border-radius: 5px;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 30px;
+    margin: 0 40px;
 }
 
 nav ul li a {
@@ -35,91 +33,61 @@ nav ul li a {
 }
 nav ul li a:hover{
     transition: .3s;
-    border-bottom: solid 5px rgb(129, 224, 227);
+    color: orange;
+    border-bottom: solid 7px orange;
 }
 span{
-    color: rgb(129, 224, 227);
+    color:orange;
     text-decoration: underline;
 }
 
-.row {
-    display: -webkit-flex;
-    display: flex;
-  }
-  
-  /* Create three unequal columns that sits next to each other */
-  .column {
-    padding: 0 10px;
-    height: 600px; /* Should be removed. Only for demonstration */
-  }
-  
-  /* Left and right column */
-  .column.side {
-     -webkit-flex: 1;
-     -ms-flex: 1;
-     flex: 1;
-  }
-  
-.apple{
-    width: 500px;
-    height: 500px;
-    display: flex;
-}
-  /* Middle column */
-  .column.middle {
-    -webkit-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
-  }
 
-.lemon{
-    display: inline;
-    font-size: 80px;
+img{
+  width: 490px;
+  height: 600px;
+  box-shadow: -1px 0 20px 5px #18243f60;
 }
-.lemon p{line-height: 2;}
-  /* Style the footer */
-  .footer {
-    background-color: #091e41;
-    padding: 5px;
-    text-align: center;
-  }
 
-h1{color: #18243f;}
-.row1{
-    display: -webkit-flex;
-    display: flex;
+
+.container{
+  margin-top: 5%;
+  padding: 50px;
 }
-.row2{
-    display: -webkit-flex;
-    display: flex;
+.Me{
+  h1{font-size: 100px; color: #18243f;}
+  p{line-height: 2;  text-align: justify; font-size: 20px;}
 }
-.banana {
-    line-height: 3;
-    font-size: 18px;
-    display: inline;
-    justify-content: center;
+
+.About{display: flex; gap: 10%;}
+
+.container2{
+  margin: 8% 20% 10%;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #18243f; border: solid 4px white;
+  justify-content: center;
+  h1{justify-content: center; color: orange; display: flex; font-size: 40px;}
+  .bi-brush-fill{font-size: 50px; z-index: -1;} .bi-pen-fill{font-size: 50px;}
 }
-.pear{
-    line-height: 3;
-    font-size: 18px;
-    display: inline;
-    justify-content: center;
-}
-.cherry{
-    line-height: 3;
-    font-size: 18px;
-    display: inline;
-    justify-content: center;
-}
-.mango{
-    width: 500px;
-    height: 500px;
-    display: flex;
-}
+
+.skills{display: flex; gap: 8%; i{font-size: 80px; font-style: normal;
+h5{font-size: 25px; letter-spacing: 2px;} text-align: center; color: orange;}}
+
+.container3{
+  padding: 10px;
+  border-radius: 5px;
+  float: left;
+  background-color: #18243fdf;
+  h1{ color: orange; font-size: 40px;}}
+
+.Education li{font-size: 17px; line-height: 2; list-style-image: url(../img/starry\ icon.png);}
+
+h1{font-size: 50px;}
+
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
+ /* @media (max-width: 600px) {
     .row {
       -webkit-flex-direction: column;
       flex-direction: column;
     }
-  }
+  }*/
