@@ -59,11 +59,11 @@ This project shows the  simple design of a personal website
 <!-- The following are just sample -->
 Description of the project in details.
 
-<!--Guiding Question:
+Guiding Question:
 - What is the project
 - Whats the purpose
 - What are key components
-- What technology used and how it is used-->
+- What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -79,7 +79,7 @@ Description of the project in details.
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
-<!--## Rules, Practices and Principles
+## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
 3. Place Files in their respective folders.
@@ -111,7 +111,7 @@ WD-ProjectName
 |     └─ index.html
 └─ index.html
 └─ readme.md
-```-->
+```
 
 ## Resources
 
