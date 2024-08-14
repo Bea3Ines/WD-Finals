@@ -4,105 +4,56 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: #18243f74;
     color: #333;
     outline: auto;
-    background-image: url(../img/popteamepic.png);
+    /*background-image: url(../img/popteamepic.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    object-fit: cover;
-
+    object-fit: cover;*/
 }
 
 header {
-    padding: 30px 0;
-    text-align: center;
+    padding: 10px 0;
     background-color: #18243f;
 }
-
- h1 {
-    margin: 0;
-    letter-spacing: 3px;
-    font-size: 36px;
-}
-p{font-size: 20px;}
-nav ul {
-    list-style: none;
-    padding: 0;
-    font-size: 20px;
-    border-radius: 5px;
+nav{display: flex; align-items: center; justify-content: space-between;
+  h1{text-align: left; margin-left: 3%; font-size: 40px; color: orange; .sirius{color:white}}
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 30px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+nav ul {list-style: none; font-size: 20px;}
+nav ul li {display: inline; margin: 0 40px;}
+nav ul li a {color: #fff; text-decoration: none;}
 nav ul li a:hover{
     transition: .3s;
-    border-bottom: solid 5px rgb(129, 224, 227);
+    color: orange;
+    border-bottom: solid 7px orange;
 }
+span{color:orange; text-decoration: underline;}
+
 
 .container{
-    display: flex;
-    margin-top: 10%;
-    padding: 30px;
-    gap: 8%;
-    font-size: small;
-    align-items: center;
-    justify-content: center;
-    background-color: cornflowerblue;
+  max-width: 85%;
+  margin: 20px auto;
+}
+.container h1{
+  font-size: 25px;
+  background-color: #18243f;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 15px;
 }
 
-.do{
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
+.container .image-container{
+  columns: 3 250px;
+  gap: 15px;
 }
 
-#do1{
-    background-color: aquamarine;
+.container .image-container img{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
 }
-#do2{
-    background-color: rgb(2, 109, 0);
-}
-#do3{
-    background-color: rgb(214, 13, 180);
-}
-
-main{
-    float: left;
-}
-.container2{
-    display: flex;
-    margin-top: 40%;
-    padding: 30px;
-    gap: 10%;
-    align-items: center;
-    justify-content: center;
-    background-color: cornflowerblue;
-}
-
-.do{
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-#do4{
-    background-color: rgb(255, 255, 127);
-}
-#do5{
-    background-color: rgb(0, 64, 109);
-}
-#do6{
-    background-color: rgb(214, 13, 90);
-}
-
-
-

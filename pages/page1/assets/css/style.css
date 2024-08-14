@@ -17,30 +17,15 @@ nav{display: flex; align-items: center; justify-content: space-between;
   h1{text-align: left; margin-left: 3%; font-size: 40px; color: orange; .sirius{color:white}}
 }
 
-nav ul {
-    list-style: none;
-    font-size: 20px;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 40px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+nav ul {list-style: none; font-size: 20px;}
+nav ul li {display: inline; margin: 0 40px;}
+nav ul li a {color: #fff; text-decoration: none;}
 nav ul li a:hover{
     transition: .3s;
     color: orange;
     border-bottom: solid 7px orange;
 }
-span{
-    color:orange;
-    text-decoration: underline;
-}
-
+span{color:orange; text-decoration: underline;}
 
 img{
   width: 490px;
@@ -49,6 +34,7 @@ img{
 }
 
 
+/*details about me*/
 .container{
   margin-top: 5%;
   padding: 50px;
@@ -59,35 +45,82 @@ img{
 }
 
 .About{display: flex; gap: 10%;}
-
+/*-----------------------------Container2----------------------------------------------------*/
 .container2{
   margin: 8% 20% 10%;
   border-radius: 30px;
-  padding: 20px;
+  padding: 10px;
   background-color: #18243f; border: solid 4px white;
   justify-content: center;
-  h1{justify-content: center; color: orange; display: flex; font-size: 40px;}
-  .bi-brush-fill{font-size: 50px; z-index: -1;} .bi-pen-fill{font-size: 50px;}
+  h1{justify-content: center; color: orange;
+    display: flex; font-size: 40px; span{color: white;}}
+  .bi-brush-fill{font-size: 50px; z-index: -1;}
+  .bi-pen-fill{font-size: 50px;}
 }
 
 .skills{display: flex; gap: 8%; i{font-size: 80px; font-style: normal;
 h5{font-size: 25px; letter-spacing: 2px;} text-align: center; color: orange;}}
 
+
+/*-----------------------------Container3----------------------------------------------------*/
+
+.why{
+  display:grid;
+  grid-template-columns: auto auto;
+  column-gap: 10%;
+  row-gap: 8%;
+  padding: 80px;
+}
+
 .container3{
-  padding: 10px;
+  padding: 10px 10px;
   border-radius: 5px;
-  float: left;
   background-color: #18243fdf;
-  h1{ color: orange; font-size: 40px;}}
+  h1{ color: orange; font-size: 40px; span{color: white;}}
+}
 
-.Education li{font-size: 17px; line-height: 2; list-style-image: url(../img/starry\ icon.png);}
+.Education li{font-size: 17px; line-height: 2;  list-style-image: url(../img/starry\ icon.png);}
 
-h1{font-size: 50px;}
 
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
- /* @media (max-width: 600px) {
-    .row {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
-  }*/
+/*-----------------------------Container4----------------------------------------------------*/
+.container4{
+  border-radius: 5px;
+  p{text-align: justify;}
+  h1{font-size: 40px;text-align: center;}
+}
+
+.container41{
+  img{width: 600px; height: 400px;}
+  margin-left: 30%;
+}
+/*-----------------------------Container5----------------------------------------------------*/
+
+.what{
+  padding: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container5{
+  h1{font-size: 50px;}
+  padding: 5px;
+  margin: 10%
+}
+.container6{
+  margin-top: 10%;
+  img {width: 500px;
+  height: 300px;z-index: 1;}
+  img {width: 500px;
+    height: 300px;z-index: 1;}
+  .steven3 {width: 1000px;
+      height: 500px;z-index: 1;}
+}
+
+.container61{
+  img {width: 400px;
+    height: 500px;z-index: 1;}
+}
+
+span{color:orange;}
+
+
