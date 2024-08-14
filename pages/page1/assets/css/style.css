@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Limelight&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');
-*{outline: auto;}
+*{outline: none;}
 body {
     font-family: Righteous;
     margin: 0;

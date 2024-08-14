@@ -54,16 +54,16 @@
 ---
 
 ## Overview
-This project shows the  simple design of a personal website 
+This project I created is nothing but a minimalistic personal website about aspiring to be an illustrator and artworks. The purpose of this is to get to know the small infos about this website and to show the web page design.
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+<!--Description of the project in details.-->
 
-Guiding Question:
+<!--Guiding Question:
 - What is the project
 - Whats the purpose
 - What are key components
-- What technology used and how it is used
+- What technology used and how it is used-->
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -71,8 +71,10 @@ Guiding Question:
 <!--MultiPage Website/Single Page Website-->
 <!--Parallax transition-->
 <!--Transactional-->
-- 5 pages from personal website 
+- 5 pages from personal website
 - Landing page
+- Layout design
+- Navigation 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
