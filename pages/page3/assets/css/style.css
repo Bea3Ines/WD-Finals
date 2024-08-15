@@ -5,13 +5,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #18243f74;
-    color: #333;
+    color: #fff;
     outline: auto;
-    /*background-image: url(../img/popteamepic.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    object-fit: cover;*/
 }
 
 header {
@@ -32,8 +27,58 @@ nav ul li a:hover{
 }
 span{color:orange; text-decoration: underline;}
 
+.box{
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
 
-.container{
+.slider{
+  position: relative;
+  width: 100%;
+  height: 570px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+.item {
+  color: #18243f;
+  position: absolute;
+  width: 200px;
+  height: 320px;
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  left: calc(40% - 110px);
+  top: 0;
+}
+
+#next, #prev{
+  position: absolute;
+  top: 40%;
+  color:#fff;
+  background-color: transparent;
+  border: none;
+  font-size: 60px;
+  font-family: monospace;
+  font-weight: bold;
+  left: 50px;
+}
+
+#next{
+  left: unset;
+  right: 50px;
+}
+
+/*.container{
   max-width: 85%;
   margin: 20px auto;
 }
@@ -56,4 +101,4 @@ span{color:orange; text-decoration: underline;}
   margin-bottom: 10px;
   border-radius: 5px;
   width: 100%;
-}
+}*/

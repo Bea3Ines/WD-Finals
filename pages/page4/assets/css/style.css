@@ -4,6 +4,7 @@ body {
     font-family: Righteous;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: #18243f;
     color: orange;
 }
@@ -41,6 +42,8 @@ span{color:orange; text-decoration: underline;}
 .contact .content{margin-right: 65%; max-width: 500px; text-align: justify;}
 .contact .content h2{font-size: 30px; font-weight: 500; color: orange;}
 .contact .content p{font-weight: 300; font-size: 16px; color: orange;}
+.logo{display: flex;}
+.logo li{text-decoration: none; list-style: none; font-size: 20px;}
 
 .container{width: 100%; display: flex; justify-content: center; align-items: center; margin-top: 30px;}
 
