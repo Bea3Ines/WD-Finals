@@ -5,6 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Bea3Ines/">
+  <a href="https://github.com/Bea3Ines/WD-Finals>
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="assets/img/idea_5641129.png" alt="Idea" width="130" height="100">
   </a>
